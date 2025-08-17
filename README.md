@@ -36,6 +36,7 @@ Install via pip:
 
 pip install tensorflow numpy pillow
 
+
 📄 Python Example (Prototype)
 import numpy as np
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
@@ -43,7 +44,7 @@ from tensorflow.keras.preprocessing import image
 import tensorflow as tf
 import matplotlib.pyplot as plt
 
-# Load ResNet50 model pre-trained on ImageNet
+Load ResNet50 model pre-trained on ImageNet
 model = ResNet50(weights='imagenet')
 
 def load_image(img_path):
